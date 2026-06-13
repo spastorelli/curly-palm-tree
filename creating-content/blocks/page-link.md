@@ -1,0 +1,29 @@
+---
+description: Add a page link block to show relations between pages in your space.
+metaLinks:
+  alternates:
+    - >-
+      https://app.gitbook.com/s/bS7QQPLgDzMuaC61tcij/creating-content/blocks/page-link
+---
+
+# Page links
+
+Page link blocks are the best way create relations between different pages within your content. Page links stand out on the page as they fill their own block — compared to a hyperlink added to some text.
+
+### Example of page link block
+
+The links below point to [blocks](./) and [inline content](../formatting/inline.md):
+
+{% content-ref url="./" %}
+[.](./)
+{% endcontent-ref %}
+
+{% content-ref url="../formatting/inline.md" %}
+[inline.md](../formatting/inline.md)
+{% endcontent-ref %}
+
+## Representation in Markdown
+
+```markdown
+{% content-ref url="./" %} . {% endcontent-ref %}
+```
