@@ -1,0 +1,31 @@
+$schema: https://api.gitbook.com/gitbook-docs.yaml
+site:
+  title: History of the Babbage Machine
+  structure:
+    - type: section
+      key: section-1
+      title: The Babbage Machine
+      path: history-of-the-babbage-machine
+      icon: gear
+      default: true
+      children:
+        - type: space
+          key: space-1
+          title: History of the Babbage Machine
+          path: history-of-the-babbage-machine
+          default: true
+          content:
+            directory: ./history-of-the-babbage-machine
+    - type: section
+      key: section-2
+      title: The Colossus Computer
+      path: the-colossus-computer
+      icon: lock
+      children:
+        - type: space
+          key: space-2
+          title: The Colossus Computer
+          path: the-colossus-computer
+          default: true
+          content:
+            directory: ./the-colossus-computer
