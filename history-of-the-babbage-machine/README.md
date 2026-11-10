@@ -23,3 +23,9 @@ This site traces the story of Babbage's machines: the man behind them, the Diffe
 | Difference Engine No. 2 | Refined difference engine design                              | Designed (1847–49), built 1991 by the Science Museum |
 
 Use the navigation to explore each part of the story.
+
+
+
+
+
+sdfsdfsd
